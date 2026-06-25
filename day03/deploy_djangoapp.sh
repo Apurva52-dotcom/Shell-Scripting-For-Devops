@@ -16,6 +16,7 @@ code_clone() {
 install_requirements() {
 	echo "Installing Dependencies"
 	sudo apt-get install docker.io nginx -y docker-compose
+	#compose use for executing multiple things togtherlyy
 
 }
 
